@@ -8,7 +8,7 @@ The script implements a andomization statistical test. Consider a fully connecte
 We can consider the connections among three nodes (A,B,C) as hierarchical, if an A->B and a B->C
 connection implies an A->C connection (if A is dominant over B, and B is dominant over C, then
 A is dominant over C). Using this concept we can calculate a hierarchy index for any directed matrix.
-The test returns a p value for an input graph, which is the probability that the hierarchy index of the input graph can be obtained for a graph with random connection directions.
+The script calculates the hierarchy matrix of an input graph (given by a connection matrix) and, apart from this index, it returns a p value, which is the probability that the hierarchy index of the input graph can be obtained for a graph with random connection directions (significance of hierarchy).
 
 ## Software / libraries
 - Python: numpy, matplotlib, graphviz
