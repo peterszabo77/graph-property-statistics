@@ -14,7 +14,7 @@ as the H index of the input (one-sided significance of hierarchy).
 ## Software / libraries
 - Python: numpy, matplotlib, graphviz
 
-## Results (examples for randomized, originally completely hierarchical, graphs)
+## Results (examples for graphs with different H-indices)
 
 Different shades of blue indicate the overall dominance of nodes (proportion of outgoing edges).
 
