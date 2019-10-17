@@ -4,11 +4,11 @@ Implementation of a randomization test regarding the hierarchical directionality
 
 ## About
 
-The script implements a andomization statistical test. Consider a fully connected graph with directed edges.
+The script implements a randomization statistical test. Consider a fully connected graph with directed edges.
 We can consider the connections among three nodes (A,B,C) as hierarchical, if an A->B and a B->C
 connection implies an A->C connection (if A is dominant over B, and B is dominant over C, then
-A is dominant over C). Using this concept we can calculate a hierarchy index (H) for any directed matrix.
-The script calculates the H index of an input graph (given by a connection matrix) and, apart from this index, it returns a p value, which is an estimate of the probability that the H index of a completely random graph is at least as large
+A is dominant over C). Using this concept we can calculate a hierarchy index (H) for any directed graph.
+The script calculates the H index of an input graph (given by a connection matrix) and returns a p value, which is an estimate of the probability that the H index of a completely random graph is at least as large
 as the H index of the input (one-sided significance of hierarchy).
 
 ## Software / libraries
