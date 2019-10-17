@@ -18,4 +18,4 @@ as the H index of the input (one-sided significance of hierarchy).
 
 Different shades of blue indicate the overall dominance of nodes (proportion of outgoing edges).
 
-
+![results](https://github.com/peterszabo77/graph-property-statistics/blob/master/images/results.png)
